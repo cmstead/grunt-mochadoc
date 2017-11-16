@@ -1,0 +1,5 @@
+{
+    "projectName": "Grunt-Mochadoc",
+    "files": "./test/*.js",
+    "dest": "./docs"
+}

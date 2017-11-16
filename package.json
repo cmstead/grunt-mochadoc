@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/cmstead/grunt-mochadoc#readme",
   "dependencies": {
-    "mochadoc-runner": "^1.0.0"
+    "mochadoc-runner": "^1.0.1"
   },
   "devDependencies": {
     "grunt": "^1.0.1"
