@@ -2,7 +2,7 @@
   "name": "grunt-mochadoc",
   "version": "1.0.0",
   "description": "A grunt task-runner for Mochadoc",
-  "main": "task.js",
+  "main": "./tasks/mochadoc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
