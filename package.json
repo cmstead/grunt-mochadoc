@@ -1,6 +1,6 @@
 {
   "name": "grunt-mochadoc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A grunt task-runner for Mochadoc",
   "main": "./tasks/mochadoc.js",
   "scripts": {
