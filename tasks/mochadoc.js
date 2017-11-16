@@ -5,10 +5,12 @@ const mochadocRunner = require('mochadoc-runner');
 function registerTasks(grunt) {
     grunt.registerMultiTask('mochadoc', 'Run mochadoc against your test files', function () {
         const done = this.async();
-        
+
         mochadocRunner(this.data, function (error, success) {
             if(error) {
-                console.log('An error occurred: ' + error.toString());
+                grunt.log('An error occurred: ' + error.toString());
+            } else {
+                grunt.log('Completing mochadoc task.');
             }
 
             done();
