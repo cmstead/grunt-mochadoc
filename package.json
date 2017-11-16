@@ -1,0 +1,33 @@
+{
+  "name": "grunt-mochadoc",
+  "version": "1.0.0",
+  "description": "A grunt task-runner for Mochadoc",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmstead/grunt-mochadoc.git"
+  },
+  "keywords": [
+    "grunt",
+    "mochadoc",
+    "documentation",
+    "doc-generation",
+    "test",
+    "unit-tests"
+  ],
+  "author": "Chris Stead",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/cmstead/grunt-mochadoc/issues"
+  },
+  "homepage": "https://github.com/cmstead/grunt-mochadoc#readme",
+  "dependencies": {
+    "mochadoc-runner": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
